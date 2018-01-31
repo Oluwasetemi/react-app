@@ -10,15 +10,14 @@ import AddGreeter from './AddGreeter';
 const App = () => {
   return (
     <div className="App">
-      <HelloWorld name="Ayo" />
-      <HelloWorld name="Setemi" />
-      <HelloWorld name="Bolade" />
-      <HelloWorld name="Bolade1" />
-      <HelloWorld name="Bolade2" />
-      <HelloWorld name="Bolade3" />
-      <HelloWorld name="Bolade4" />
-      <HelloWorld name="Bolade5" />
-      <HelloWorld name="Bolade6" />
+      <HelloWorldList />
+      <HelloWorldList />
+      <HelloWorldList />
+      <HelloWorldList />
+      <HelloWorldList />
+      <HelloWorldList />
+      <HelloWorldList />
+      <HelloWorldList />
       <HelloWorldList />
     </div>
   );

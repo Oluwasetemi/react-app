@@ -38,13 +38,13 @@
   @media screen and (min-width: 800px) {
     .App {
       display: grid;
-      grid-template: repeat(6, 2fr) / 1fr 2fr;
+      grid-template: repeat(6, 2fr) / 1fr 1fr;
     }
   }
   @media screen and (min-width: 1200px) {
     .App {
       display: grid;
-      grid-template: repeat(6, auto)  / 2fr 2fr 1fr;
+      grid-template: repeat(6, auto)  / 1fr 1fr 1fr;
     }
   }
 }

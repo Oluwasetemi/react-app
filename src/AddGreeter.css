@@ -1,7 +1,9 @@
 .AddGreeter {
-    margin: 20px;
-    padding: 20px;
+    margin: 10px;
+    padding: 10px;
     border: 2px solid #00FFD8;
     background: #DDFFEE;
     text-align: center;
+    /* display: flex;
+    flex-flow: row nowrap; */
   }

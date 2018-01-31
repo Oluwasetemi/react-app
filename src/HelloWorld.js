@@ -12,7 +12,7 @@ import "./HelloWorld.css";
 class HelloWorld extends Component {
   constructor(props) {
     super(props);
-    this.state = { greeting: "Hello"};
+    this.state = { greeting: "Hello" };
     this.frenchify = this.frenchify.bind(this);
     this.removeGreeting = this.removeGreeting.bind(this);
   }
